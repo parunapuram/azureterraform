@@ -1,0 +1,14 @@
+location                = "westus2"
+rg_name                 = "azure-rg"
+vnet_name               = "azure-vnet"
+vnet_address_space      = ["10.0.0.0/16"]
+subnet_name             = "VMSubnet"
+subnet_address_prefixes = ["10.0.0.0/24"]
+public_ip_name          = "azure-pip"
+nic_name                = "azure-nic"
+vm_name                 = "azure-vm"
+vm_size                 = "Standard_B2s"
+admin_username          = "azureuser"
+admin_password          = "Azure@12345!"
+nsg_name                = "azure-nsg"
+vm_count                = 3
